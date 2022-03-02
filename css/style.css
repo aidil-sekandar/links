@@ -17,6 +17,10 @@ span {
   border-bottom: 2px solid gray;
 }
 
+i {
+    font-size: 1.6rem;
+}
+
 body {
   background-color: #222020;
   display: flex;
