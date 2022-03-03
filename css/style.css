@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
 
-:root {
-  font-size: 20px;
-}
-
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -17,16 +13,13 @@ span {
   border-bottom: 2px solid gray;
 }
 
-i {
-    font-size: 1.6rem;
-}
-
 body {
   background-color: #222020;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-size: 1.4rem;
 }
 
 .container {
@@ -75,8 +68,8 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  :root {
-    font-size: 15px;
+  body {
+    font-size: 1.2rem;
   }
 
   .container {
