@@ -44,16 +44,6 @@ body {
   text-align: center;
 }
 
-.profile-div {
-  display: flex;
-  gap: 1em;
-}
-
-.profile-div > .img-div > img {
-  width: 3rem;
-  border-radius: 50%;
-}
-
 .box-with-image {
   display: flex;
   align-items: center;
